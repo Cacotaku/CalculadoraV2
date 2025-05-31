@@ -49,7 +49,9 @@ public class Exib
                     System.out.println("O resultado de " + number1 +
                             " + " + number2 + " é igual a " + resultado + "\n");
 
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
+
 
                     break;
 
@@ -66,6 +68,7 @@ public class Exib
                     System.out.println("O resultado de " + number1 +
                             " - " + number2 + " é igual a " + resultado + "\n");
 
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
 
                     break;
@@ -82,6 +85,7 @@ public class Exib
                     System.out.println("O resultado de " + number1 +
                             " x " + number2 + " é igual a " + resultado + "\n");
 
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
 
                     break;
@@ -98,6 +102,7 @@ public class Exib
                     System.out.println("O resultado de " + number1 +
                             " : " + number2 + " é igual a " + resultado + "\n");
 
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
 
                     break;
@@ -114,6 +119,7 @@ public class Exib
                     System.out.println("O resultado de " + number1 +
                             " elevado a potência de " + number2 + " é igual a " + resultado + "\n");
 
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
 
                     break;
@@ -124,6 +130,7 @@ public class Exib
 
                 default: //Opção inválida
                     System.out.println("Opção Inválida\n");
+                    System.out.println(texto);
                     opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada\n"));
             }
         }
