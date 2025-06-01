@@ -28,45 +28,45 @@ public class Operations
 
     //construtores das operações matemáticas
 
-    public float Adicao()
+    public float Adicao()         //Adição (ex. A+B)
     {
         resultado = num1 + num2;
         return resultado;
     }
 
-    public float Subtracao()
+    public float Subtracao()      //Subtração (ex. A-B)
     {
         resultado = num1 - num2;
         return resultado;
     }
 
-    public float Multiplicacao()
+    public float Multiplicacao() //Multiplicação (ex. AxB)
     {
         resultado = num1 * num2;
         return resultado;
     }
 
-    public float Divisao()
+    public float Divisao()      //Divisão (ex. A/B)
     {
         resultado = num1 / num2;
         return resultado;
     }
 
-    public float Potencia()
+    public float Potencia()    //Exponenciação (ex. X²)
     {
         resultado = num1;
         int assistent1 = 1;
         do
         {
-            resultado = resultado * num1;
-            assistent1 = assistent1 +1;
+            resultado = resultado * num1;     //Utiliza o valor de resultado e multiplica pelo valor inicial de num1
+            assistent1 = assistent1 +1;       //Incrementa o contador.
 
         }while(assistent1 <num2);
 
         return resultado;
     }
 
-    //chamada de texto
+    //chamada de texto com as operações disponíveis
     public String Texto()
     {
         String chamadaTxt = "Calculadora maluca:\n" +
